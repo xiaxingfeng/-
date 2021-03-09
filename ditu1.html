@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/ditu1.css">
+    <script src="./js/reset.js"></script>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=bd88c1bd941f5d4791b7e8ee09704a5b"></script>
+</head>
+
+<body>
+    <div class="tittle">
+        <img src="./image/SecondHandList/img.png" alt="">
+        <span class="a">天河湾小区精装两居，满五唯一，</span>
+        <span class="a">业主换房急售</span>
+        <div class="price">
+            <span><a href="#">576</a>万元(单价：46327元/平)</span>
+            <img src="./image/SecondHandList/phone.png" alt="">
+        </div>
+        <span class="time">挂牌时间2015年6月20日</span>
+        <div class="jies">
+            <span>学区房</span>
+            <span>独家</span>
+            <span>满五唯一</span>
+        </div>
+    </div>
+    <ul class="fangyuan">
+        <li>
+            <span>户型：3室2厅</span>
+            <span>面积：100平</span>
+        </li>
+        <li>
+            <span>楼层：中楼层</span>
+            <span>朝向：西南</span>
+        </li>
+        <li>
+            <span>装修：精装</span>
+            <span>楼型：塔楼</span>
+        </li>
+        <li>
+            <span>年代：2004年</span>
+            <span>区域：西二旗</span>
+        </li>
+        <li>
+            <span>首付：123万</span>
+            <span>月供：15383元</span>
+        </li>
+        <li>地铁：离西二旗地铁站800米</li>
+        <li>小区：珠江帝景</li>
+        <li>学校：北京市第二实验小学</li>
+        <li class="gengduo">更多房源信息</li>
+    </ul>
+    <ul class="huxing">
+        <li>户型分间</li>
+        <li>
+            <img src="./image/SecondHandList/img3.png" alt="">
+            <div>
+                <span>当前格局</span>
+                <span>分间信息：客厅25平米，南北通透</span>
+                <div>
+                    <span>南北通透</span>
+                    <span>全明格局</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="./image/SecondHandList/img3.png" alt="">
+            <div>
+                <span>当前格局</span>
+                <span>分间信息：客厅25平米，南北通透</span>
+                <div>
+                    <span>南北通透</span>
+                    <span>全明格局</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <ul class="school">
+        <li>对口学校</li>
+        <li><a>学校名称：</a>北京市第二实验小学</li>
+        <li><a>学校名称：</a>直升、派位</li>
+        <li><a>对口中学：</a>团结湖中学</li>
+        <li><a>划片小区：</a>3个划片小区 在售房源150套</li>
+        <li><a>学校特色：</a>包食宿、有校车</li>
+        <li>
+            <a></a>查看学校详情</li>
+    </ul>
+    <ul class="map">
+        <li>位置及周边</li>
+        <li>
+            <div id="container">
+
+            </div>
+        </li>
+    </ul>
+    <div class="zhaofang_s">
+        <div class="zhao_t">北京找房无忧 > 首页</div>
+        <div class="zhao_b">
+            <div class="iph">
+                <img src="./image/index/apple.png" alt="">
+                <span>iPhone<br>客户端</span>
+            </div>
+            <div class="and">
+                <img src="./image/index/android.png" alt="">
+                <span>android<br>客户端</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="bianhao">
+            北京找房无忧房地产经纪公司<br> 网络经营许可证京ICB备201618012号
+        </div>
+
+    </div>
+</body>
+<script>
+    //地图
+    window.onLoad = function() {
+        var map = new AMap.Map('container');
+    }
+    var url = 'https://webapi.amap.com/maps?v=1.4.15&key=您申请的key值&callback=onLoad';
+    var jsapi = document.createElement('script');
+    jsapi.charset = 'utf-8';
+    jsapi.src = url;
+    document.head.appendChild(jsapi);
+</script>
+
+</html>
