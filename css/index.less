@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100px;
+}
+body{
+    font-size: 0;
+}
+ul,li{
+    list-style: none;
+}
+.logo{
+    padding: .07rem .34rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255,138,0);
+     img{
+        height: .29rem;
+    }
+    .wode{
+        justify-content: space-between;
+        width: .66rem;
+        display: flex;
+    }
+}
+.search{
+    position: relative;
+    width: 100%;
+    height: 2.24rem;
+    background: url('../image/index/banner.png') no-repeat;
+    background-size: 100%;
+    span{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: .1rem;
+        left: .2rem;
+        width: 2.85rem;
+        height: .3rem;
+        border: .02rem solid black;
+        border-radius: .05rem;
+        img{
+            height: .18rem;
+            margin: 0 .08rem;
+        }
+    }
+    input{
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+}
+input::placeholder{
+    color:rgb(117,117,117);
+}
+.fangzi{
+    width: 100%;
+    height: 1.2rem;
+    background-color: rgb(245,245,245);
+    padding-bottom: .1rem;
+    ul{
+        height: 100%;
+        display: flex;
+        background-color: rgb(255,138,0);
+        justify-content: space-around;
+        align-items: center;
+        li{
+            height: .76rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    img{
+        height: .56rem;
+    }
+    span{
+        font-size: .12rem;
+        color: white;
+    }
+}
+.tupian{
+    width: 100%;
+    height: 2.65rem;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: .13rem;
+    img{
+        width: 100%;
+    }
+}
+.remen{
+    position: relative;
+    width: 100%;
+    height: .61rem;
+    background-color: rgb(255,138,0);
+}
+.remen span:nth-child(1){
+    position: absolute;
+    top: .09rem;
+    left: .2rem;
+    font-size: .18rem;
+    color: white;
+}
+.remen span:nth-child(2){
+    position: absolute;
+    color: white;
+    font-size: .12rem;
+    top: .35rem;
+    left: .2rem;
+}
+.fangyuan{
+    width: 100%;
+    height: 4.35rem;
+    padding-bottom: .07rem;
+    background-color: rgb(245, 245, 245);
+}
+.fangyuan>li{
+    background-color: white;
+    padding: 0 .15rem;
+}
+.fangyuan div{
+    width: 100%;
+    height: 1.43rem;
+    justify-content: space-between;
+    border-bottom: .01rem solid red;
+    align-items: center;
+    display: flex;
+    img{
+        height: .81rem;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 1.9rem;
+        height: 1.08rem;
+    }
+    ul>li:nth-child(1){
+        font-size: .18rem;
+        font-weight: 700;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    ul>li:nth-child(2) {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul>li:nth-child(2) span:nth-child(1){
+        font-size: .12rem;
+    }
+    ul>li:nth-child(2) span:nth-child(2){
+        font-size: .12rem;
+        color: rgb(255,138,0);
+    }
+    ul>li:nth-child(3) {
+        font-size: .14rem;
+        color: rgb(139, 139, 139);
+        display: flex;
+        justify-content: space-between;
+    }
+    ul>li:nth-child(4) span{
+        font-size: .14rem;
+        background-color: rgb(244, 247, 249);
+        padding: .02rem .04rem;
+        margin-right: .04rem;
+        color: rgb(132,154,174);
+    }
+}
+#last{
+    border: none;
+}
+.guanzhu{
+    width: 100%;
+    height: .57rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: .2rem;
+    align-items: center;
+    border-bottom: .01rem solid rgb(255,138,0);
+    span{
+        width: 50%;
+        height: .57rem;
+        line-height: .57rem;
+        text-align: center;
+    }
+}
+.active{
+    color:rgb(255,138,0);
+    border-bottom: .02rem solid rgb(255,138,0);
+}
+.guanzhu_c{
+    width: 100%;
+    height: 1.36rem;
+    display: flex;
+    font-size: .14rem;
+    align-items: center;
+    justify-content: space-around;
+    div{
+        width: 1.2rem;
+        height: 1rem;
+        color: rgb(90,90,90);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+.zhaofang_s{
+    width: 100%;
+    height: 1.05rem;
+    background-color: rgb(47,49,48);
+    font-size: .14rem;
+    padding: 0 .15rem;
+    color: rgb(93,94,93);
+    .zhao_t{
+        height: .4rem;
+        line-height: .4rem;
+        border-bottom: 1px solid rgb(93,94,93);
+    }
+    .zhao_b{
+        width: 100%;
+        height: .65rem;
+        display: flex;
+        align-items: center;
+        div{
+            width: 1.1rem;
+            height: .5rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            img{
+                width: .25rem;
+                height: .25rem;
+            }
+        }
+        .and{
+            margin-left: .3rem;
+        }
+    }
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: .5rem;
+    background-color: #000;
+    .bianhao{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        font-size: .12rem;
+        color: rgb(93,94,93);
+    }
+    .add{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        z-index: 3;
+        justify-content: space-between;
+        img{
+            width: .35rem;
+            height: .35rem;
+        }
+        >span{
+            margin-top: -.03rem;
+            align-self: flex-start;
+            font-size: .12rem;
+            color: rgb(93,94,93);
+        }
+        .zf{
+            margin-top: -.05rem;
+        }
+        .zf span:nth-child(1){
+            color: white;
+            font-size: .18rem;
+        }
+        .zf span:nth-child(2){
+            display: flex;
+            color: white;
+            font-size: .12rem;
+        }
+        .download{
+            width: 1.08rem;
+            height: 100%;
+            background-color: rgb(255,138,0);
+            color: white;
+            font-size: .16rem;
+            line-height: .5rem;
+            text-align: center;
+        }
+    }
+}

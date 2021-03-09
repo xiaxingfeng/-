@@ -1,0 +1,129 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245,245,245);
+}
+.sousuo{
+    width: 2.9rem;
+    height: .4rem;
+    margin: .05rem auto;
+    padding: 0 .1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(231,231,231);
+    border-radius: .05rem;
+    img{
+        width: .23rem;
+    }
+    input{
+        outline: none;
+        width: 2.3rem;
+        height: .15rem;
+        border: none;
+        border-right: 1px solid black;
+    }
+    input::placeholder{
+        color: rgb(181,181,181);
+        font-size: .10rem;
+    }
+}
+.xuanze{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: .4rem;
+    width: 100%;
+    border: 1px solid rgb(131,131,131);
+    select{
+        outline: none;
+        border: none;
+        font-size: .14rem;
+        color: rgb(53,53,53);
+    }
+}
+.home{
+    width: 100%;
+    padding: 0 .2rem;
+    li{
+        width: 100%;
+        height: 1.35rem;
+        align-items: center;
+        border-bottom: 1px solid rgb(255,138,0);
+        display: flex;
+        img{
+            width: .85rem;
+            margin-right: .1rem;
+        }
+        div{
+            height: .95rem;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            span{
+                font-size: .12rem;
+                color: rgb(181,181,181);
+                a{
+                    text-decoration: none;
+                    color: rgb(255,138,0);
+                }
+            }
+        }
+        div span:nth-child(1){
+            font-size: .14rem;
+            color: rgb(53,53,53);
+            margin-bottom: .1rem;
+        }
+        div span:nth-child(2){
+            color: rgb(53,53,53);
+        }
+    }
+}
+.zhaofang_s{
+    width: 100%;
+    height: 1.05rem;
+    background-color: rgb(47,49,48);
+    font-size: .14rem;
+    padding: 0 .15rem;
+    color: rgb(93,94,93);
+    .zhao_t{
+        height: .4rem;
+        line-height: .4rem;
+        border-bottom: 1px solid rgb(93,94,93);
+    }
+    .zhao_b{
+        width: 100%;
+        height: .65rem;
+        display: flex;
+        align-items: center;
+        div{
+            width: 1.1rem;
+            height: .5rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            img{
+                width: .25rem;
+                height: .25rem;
+            }
+        }
+        .and{
+            margin-left: .3rem;
+        }
+    }
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: .5rem;
+    background-color: rgb(47,49,48);
+    .bianhao{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        font-size: .12rem;
+        color: rgb(93,94,93);
+    }
+    
+}

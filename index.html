@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src=""></script>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="image/index/logo.jpg" alt="">
+        <div class="wode">
+            <img src="image/index/my.jpg" alt="">
+            <img src="image/index/xiazai.jpg" alt="">
+        </div>
+    </div>
+    <div class="search">
+        <span>
+            <img src="image/index/seach.jpg" alt="">
+            <input type="text" placeholder="输入小区或商圈名开始找房咯！">
+        </span>
+    </div>
+    <div class="fangzi">
+        <ul>
+            <li>
+                <img src="image/index/index_03.png" alt="">
+                <span>二手房</span>
+            </li>
+            <li>
+                <img src="image/index/index_05.png" alt="">
+                <span>新房</span>
+            </li>
+            <li>
+                <img src="image/index/index_07.png" alt="">
+                <span>租房</span>
+            </li>
+            <li>
+                <img src="image/index/index_09.png" alt="">
+                <span>卖房</span>
+            </li>
+        </ul>
+    </div>
+    <div class="tupian">
+        <img src="image/index/banner2.png" alt="">
+    </div>
+    <div class="remen">
+        <span>热门房源</span>
+        <span>Hot house</span>
+    </div>
+    <ul class="fangyuan">
+        <li>
+            <div>
+                <img src="image/index/img1.jpg" alt="">
+                <ul>
+                    <li>文化部中间层 一层带阁楼</li>
+                    <li>
+                        <span>2室1厅96㎡南北</span>
+                        <span>1105万</span>
+                    </li>
+                    <li>
+                        <span>红庙北里</span>
+                        <span>14268元/平</span>
+                    </li>
+                    <li>
+                        <span>学区房</span>
+                        <span>独家</span>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="image/index/img2.png" alt="">
+                <ul>
+                    <li>光大水墨 精装复式 稀缺</li>
+                    <li>
+                        <span>2室1厅96㎡南北</span>
+                        <span>280万</span>
+                    </li>
+                    <li>
+                        <span>光大水墨</span>
+                        <span>14268元/平</span>
+                    </li>
+                    <li>
+                        <span>学区房</span>
+                        <span>独家</span>
+                        <span>满五唯一</span>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div id="last">
+                <img src="image/index/img3.png" alt="">
+                <ul>
+                    <li>南北通透两居 精装修 无</li>
+                    <li>
+                        <span>2室1厅96㎡南北</span>
+                        <span>320万</span>
+                    </li>
+                    <li>
+                        <span>北京新天地</span>
+                        <span>14268元/平</span>
+                    </li>
+                    <li>
+                        <span>地铁房</span>
+                        <span>独家</span>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <div class="guanzhu">
+        <span class="active">热门关注</span>
+        <span>友情链接</span>
+    </div>
+    <div class="guanzhu_c">
+        <div>
+            <span>北京二手房</span>
+            <span>北京二手房价</span>
+            <span>海淀日租房</span>
+            <span>朝阳新房</span>
+        </div>
+        <div>
+            <span>北京找房无忧</span>
+            <span>青年家园</span>
+            <span>免税房源</span>
+            <span>满五年唯一免税</span>
+        </div>
+    </div>
+    <div class="zhaofang_s">
+        <div class="zhao_t">北京找房无忧 > 首页</div>
+        <div class="zhao_b">
+            <div class="iph">
+                <img src="./image/index/apple.png" alt="">
+                <span>iPhone<br>客户端</span>
+            </div>
+            <div class="and">
+                <img src="./image/index/android.png" alt="">
+                <span>android<br>客户端</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="bianhao">
+            北京找房无忧房地产经纪公司<br> 网络经营许可证京ICB备201618012号
+        </div>
+        <div class="add">
+            <span>&times;</span>
+            <img src="./image/index/download.png" alt="">
+            <div class="zf">
+                <span>找房无忧</span>
+                <span>市场行情，一手掌握</span>
+            </div>
+            <div class="download">免费下载</div>
+        </div>
+    </div>
+</body>
+<script>
+    function setRem() {
+        var uiw = 320,
+            winw = document.documentElement.clientWidth || document.body.clientWidth;
+        document.documentElement.style.fontSize = (winw / uiw) * 100 + 'px';
+    }
+    setRem();
+    window.onresize = setRem;
+</script>
+
+</html>
